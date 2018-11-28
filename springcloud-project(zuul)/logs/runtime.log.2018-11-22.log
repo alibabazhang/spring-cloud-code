@@ -1,0 +1,186 @@
+2018-11-22 11:48:33.383 [main] INFO  com.rui.cn.CloudProvider1Application - No active profile set, falling back to default profiles: default
+2018-11-22 11:48:40.912 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-22 11:48:40.950 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-22 11:48:40.951 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-11-22 11:48:40.968 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\MAVEN\maven3.9\bin;D:\GIT\Git\cmd;C:\Program Files\jdk1.8\bin;C:\Program Files\jdk1.8\jre\bin;C:\Program Files\play1.27\play-1.2.7;D:\RabbitMq\erl9.3\bin;D:\RabbitMq\RabbitMQ Server\rabbitmq_server-3.3.4\sbin;\\HZEDAD\Filesreload\zhangruilin\Desktop\natapp_windows_amd64_2_3_7;;.]
+2018-11-22 11:48:41.438 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-22 11:48:42.630 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-22 11:48:42.631 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-22 11:48:42.670 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@e3f24e8
+2018-11-22 11:48:47.390 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-22 11:48:47.390 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-22 11:48:49.706 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-11-22 11:48:49.862 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-11-22 11:48:49.863 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-11-22 11:48:50.131 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-11-22 11:48:50.131 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-11-22 11:48:50.542 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 11:48:50.662 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-22 11:48:50.662 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-22 11:48:50.662 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-22 11:48:50.662 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-22 11:48:50.662 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-22 11:48:50.662 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-11-22 11:48:50.662 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-22 11:48:51.266 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-22 11:48:51.280 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 10
+2018-11-22 11:48:51.291 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-22 11:48:51.311 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1542858531306 with initial instances count: 4
+2018-11-22 11:48:51.337 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1542858531337, current=UP, previous=STARTING]
+2018-11-22 11:48:51.346 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER/cloud-provider-8001: registering service...
+2018-11-22 11:48:51.413 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-22 11:48:51.473 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-22 11:48:51.554 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER/cloud-provider-8001 - registration status: 204
+2018-11-22 11:48:51.598 [main] INFO  com.rui.cn.CloudProvider1Application - Started CloudProvider1Application in 20.971 seconds (JVM running for 30.477)
+2018-11-22 11:48:53.938 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-22 11:49:28.929 [main] INFO  com.rui.cn.CloudProvider2Application - No active profile set, falling back to default profiles: default
+2018-11-22 11:49:38.352 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
+2018-11-22 11:49:38.414 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-22 11:49:38.415 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-11-22 11:49:38.437 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\MAVEN\maven3.9\bin;D:\GIT\Git\cmd;C:\Program Files\jdk1.8\bin;C:\Program Files\jdk1.8\jre\bin;C:\Program Files\play1.27\play-1.2.7;D:\RabbitMq\erl9.3\bin;D:\RabbitMq\RabbitMQ Server\rabbitmq_server-3.3.4\sbin;\\HZEDAD\Filesreload\zhangruilin\Desktop\natapp_windows_amd64_2_3_7;;.]
+2018-11-22 11:49:39.202 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-22 11:49:40.349 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-22 11:49:40.350 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-22 11:49:40.422 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1303d13d
+2018-11-22 11:49:46.768 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-22 11:49:46.769 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-22 11:49:50.182 [main] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2018-11-22 11:49:51.982 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-11-22 11:49:52.483 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-11-22 11:49:52.483 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-11-22 11:49:53.347 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-11-22 11:49:53.347 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-11-22 11:49:54.519 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 11:49:54.917 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-22 11:49:54.918 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-22 11:49:54.918 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-22 11:49:54.918 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-22 11:49:54.919 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-22 11:49:54.919 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-11-22 11:49:54.919 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-22 11:49:56.451 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-22 11:49:56.465 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 10
+2018-11-22 11:49:56.480 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-22 11:49:56.500 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1542858596493 with initial instances count: 5
+2018-11-22 11:49:56.527 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1542858596527, current=UP, previous=STARTING]
+2018-11-22 11:49:56.535 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER/cloud-provider-8002: registering service...
+2018-11-22 11:49:56.613 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
+2018-11-22 11:49:56.728 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-22 11:49:56.831 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-PROVIDER/cloud-provider-8002 - registration status: 204
+2018-11-22 11:49:56.854 [main] INFO  com.rui.cn.CloudProvider2Application - Started CloudProvider2Application in 34.881 seconds (JVM running for 51.493)
+2018-11-22 11:49:58.597 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-22 11:53:50.673 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 11:54:54.933 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 11:58:50.682 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 11:59:54.941 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:03:50.690 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:04:54.949 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:08:50.698 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:09:54.958 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:13:50.706 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:14:54.966 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:18:50.714 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:19:54.974 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:23:50.722 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:24:54.982 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:28:50.731 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:29:54.990 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:33:50.739 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:34:54.999 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:38:50.747 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:39:55.007 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:43:50.755 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:44:55.015 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:48:50.763 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:49:55.023 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:53:50.771 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:54:55.031 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:58:50.779 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 12:59:55.040 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:03:50.787 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:04:55.048 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:08:50.796 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:09:55.055 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:13:50.804 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:14:55.063 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:18:50.812 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:19:55.073 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:23:50.820 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:24:55.081 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:28:50.828 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:29:55.089 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:33:50.836 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:34:55.098 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:38:50.844 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:39:55.106 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:43:50.852 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:44:55.114 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:48:50.860 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:49:55.122 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:53:50.868 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:54:55.130 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:58:50.876 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 13:59:55.138 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:03:50.884 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:04:55.146 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:08:50.892 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:09:55.161 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:13:50.900 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:14:55.170 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:15:19.141 [main] INFO  com.rui.cn.CloudZullApplication - No active profile set, falling back to default profiles: default
+2018-11-22 14:15:27.595 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6001"]
+2018-11-22 14:15:27.654 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-22 14:15:27.654 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-11-22 14:15:27.673 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\MAVEN\maven3.9\bin;D:\GIT\Git\cmd;C:\Program Files\jdk1.8\bin;C:\Program Files\jdk1.8\jre\bin;C:\Program Files\play1.27\play-1.2.7;D:\RabbitMq\erl9.3\bin;D:\RabbitMq\RabbitMQ Server\rabbitmq_server-3.3.4\sbin;\\HZEDAD\Filesreload\zhangruilin\Desktop\natapp_windows_amd64_2_3_7;;.]
+2018-11-22 14:15:28.522 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-22 14:15:29.885 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-22 14:15:29.885 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-22 14:15:29.934 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@20caceb8
+2018-11-22 14:15:35.768 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-22 14:15:35.768 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-22 14:15:41.939 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-11-22 14:15:42.395 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-11-22 14:15:42.395 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-11-22 14:15:43.283 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-11-22 14:15:43.283 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-11-22 14:15:44.170 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:15:44.498 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-22 14:15:44.499 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-22 14:15:44.499 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-22 14:15:44.499 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-22 14:15:44.500 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-22 14:15:44.500 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-11-22 14:15:44.501 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-22 14:15:45.751 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-22 14:15:45.769 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 10
+2018-11-22 14:15:45.784 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-22 14:15:45.805 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1542867345798 with initial instances count: 7
+2018-11-22 14:15:45.828 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1542867345828, current=UP, previous=STARTING]
+2018-11-22 14:15:45.834 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-ZUUL/cloud-zuul-6001: registering service...
+2018-11-22 14:15:45.893 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6001"]
+2018-11-22 14:15:45.979 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-22 14:15:46.099 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLOUD-ZUUL/cloud-zuul-6001 - registration status: 204
+2018-11-22 14:15:46.115 [main] INFO  com.rui.cn.CloudZullApplication - Started CloudZullApplication in 31.587 seconds (JVM running for 47.933)
+2018-11-22 14:15:47.233 [main] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: CLOUD-PROVIDER.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-11-22 14:15:47.278 [main] INFO  com.netflix.util.concurrent.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-CLOUD-PROVIDER
+2018-11-22 14:15:47.346 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-22 14:15:47.388 [main] INFO  com.netflix.loadbalancer.BaseLoadBalancer - Client: CLOUD-PROVIDER instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=CLOUD-PROVIDER,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-11-22 14:15:47.410 [main] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2018-11-22 14:15:47.516 [main] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: CLOUD-PROVIDER.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-11-22 14:15:47.522 [main] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client CLOUD-PROVIDER initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=CLOUD-PROVIDER,current list of Servers=[10.10.20.144:8001, 10.10.20.144:8002],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:2;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:10.10.20.144:8002;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+, [Server:10.10.20.144:8001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@168d96b6
+2018-11-22 14:15:48.421 [PollingServerListUpdater-0] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: CLOUD-PROVIDER.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-11-22 14:18:50.961 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:19:55.256 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:20:44.614 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:23:51.050 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:24:55.325 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:25:44.670 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:28:51.075 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:29:55.344 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:30:44.684 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:33:51.083 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:34:55.352 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-22 14:35:44.692 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

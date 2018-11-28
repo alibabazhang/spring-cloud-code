@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-eureka" />
+        <module name="cloud-provider" />
+        <module name="cloud-provider-A" />
+        <module name="cloud-provider-B" />
+        <module name="cloud-ribbon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-common" target="1.8" />
+      <module name="cloud-entity" target="1.8" />
+      <module name="cloud-feign" target="1.8" />
+      <module name="cloud-provider" target="1.8" />
+      <module name="cloud-provider-A (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

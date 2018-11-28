@@ -1,0 +1,50 @@
+##端口配置
+server:
+  port: 8101
+#spring相关
+spring:
+ application:
+   name: cloud-ribbon-consumer
+
+
+#eureka配置
+eureka:
+  client: # 客户端进行Eureka注册的配置
+    security:
+      basic:
+        user: admin
+        password: admin
+    service-url:
+      #defaultZone: http://${eureka.client.security.basic.user}:${eureka.client.security.basic.password}@127.0.0.1:8761/eureka
+      defaultZone: http://eureka.springcloud.cn/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 10 # 表示eureka client发送心跳给server端的频率。若在lease-expiration-duration-in-seconds后，server端没有收到client的心跳，则将摘除该instance（默认是30秒）
+    lease-expiration-duration-in-seconds: 30 #表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间（默认是90秒）
+    instance-id: ${spring.application.name}-${server.port}  # 在信息列表时显示主机名称
+    prefer-ip-address: true     # 访问的路径变为IP地址
+
+info:  #设置eureka注册中心得info信息
+  app.name: cloud-ribbon-consumer
+  company.name: com.rui.cn
+  build.artifactId: cloud-ribbon
+  build.version: 1.0-SNAPSHOT
+
+CLOUD-PROVIDER: # 具体的服务实例设置ribbon策略
+  ribbon:
+    ConnectTimeout: 3000
+    ReadTimeout: 60000
+    MaxAutoRetries: 1 # 对第一次请求的服务的重试次数
+    MaxAutoRetriesNextServer: 1 #要重试的下一个服务的最大数量（不包括第一个服务）
+    OkToRetryOnAllOperations: true
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule #负载均衡的策略
+ribbon:
+  eager-load:
+    enabled: true
+    clients: CLOUD-PROVIDER # ribbon的饿加载：ribbon在客户端负载均衡的时候并不是在启动的时候就加载在上下文，而是在实际请求时才创建，
+                            # 因此在第一次调用很容易引起超时，通过指定ribbon具体客户端名称来开启饿加载，既在启动时就加载所有配置在应用上下文
+#ribbon:
+#  eureka:
+#    enabled: false  #关闭eureka
+#client:
+#  ribbon:
+#    listOfServers: http://127.0.0.1:8001,http://127.0.0.1:8002

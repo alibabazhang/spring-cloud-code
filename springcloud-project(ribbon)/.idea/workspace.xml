@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0baa2db2-9c9c-45af-bbf9-3b383be67168" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-entity/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-permission-repository/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-provider/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-provider-A/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-provider-B/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-ribbon/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>feign</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cloud-permission-repository/src/main/java/com/rui/cn/CloudPermisssionRepositoryApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-permission-repository/src/main/java/com/rui/cn/controller/HelloFeigenController.java" />
+        <option value="$PROJECT_DIR$/cloud-permission-repository/src/main/java/com/rui/cn/feignclients/HelloFenginService.java" />
+        <option value="$PROJECT_DIR$/cloud-permission-repository/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/CloudPermisssionRepositoryApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/feignclients/HelloFeigenServiceConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/config/FeignOkhttpConfig.kt" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/config/ObjectMapperComponent.java" />
+        <option value="$PROJECT_DIR$/cloud-provider/src/main/java/com/rui/cn/CloudProviderApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-provider/src/main/java/com/rui/cn/entity/User.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/CloudFeignApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/feignclients/HelloFenginService.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/entity/User.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/config/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/config/ApplicationExceptionAdapter.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/controller/HelloFeigenController.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/config/HelloFeigenServiceConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/config/FeignRequestInterceptor.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/config/FeignTokenInterceptor.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/config/FeignOkhttpConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider/src/main/java/com/rui/cn/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/feignclients/UserFeignService.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/config/FeignMultipartSupportConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/cloud-provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/interceptor/FeignTokenInterceptor.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/interceptor/FeignRequestInterceptor.java" />
+        <option value="$PROJECT_DIR$/cloud-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-A/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-B/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-B/src/main/java/com/rui/cn/CloudProviderApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-A/src/main/java/com/rui/cn/CloudProviderApplicationA.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-B/src/main/java/com/rui/cn/CloudProviderApplicationB.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/feignclients/HelloFenginService.java" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/interceptor/FeignRequestInterceptor.java" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/controller/HelloFeigenController.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-B/src/main/java/com/rui/cn/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-A/src/main/java/com/rui/cn/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/annotation/AvoidScan.java" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/config/RibbonConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-B/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-A/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/CloudRibbonApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/config/RunBean1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\MAVEN\repository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-ribbon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Cucumber</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-project(ribbon)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project(ribbon)" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud-project(hystrix)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.rui.cn" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\win10\Desktop\springcloud-project" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CloudProviderApplicationB">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="cloud-feign" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="CloudEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rui.cn.CloudEurekaApplication" />
+    </configuration>
+    <configuration name="CloudProviderApplicationA" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-A" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rui.cn.CloudProviderApplicationA" />
+    </configuration>
+    <configuration name="CloudProviderApplicationB" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-B" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rui.cn.CloudProviderApplicationB" />
+    </configuration>
+    <configuration name="CloudRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rui.cn.CloudRibbonApplication" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CloudRibbonApplication" />
+      <item itemvalue="Spring Boot.CloudEurekaApplication" />
+      <item itemvalue="Spring Boot.CloudProviderApplicationA" />
+      <item itemvalue="Spring Boot.CloudProviderApplicationB" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CloudProviderApplicationB" />
+        <item itemvalue="Spring Boot.CloudProviderApplicationA" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0baa2db2-9c9c-45af-bbf9-3b383be67168" name="Default" comment="" />
+      <created>1541312896650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541312896650</updated>
+      <workItem from="1541312900558" duration="562000" />
+      <workItem from="1541313487299" duration="848000" />
+      <workItem from="1541314361196" duration="885000" />
+      <workItem from="1541315291377" duration="7747000" />
+      <workItem from="1541323294039" duration="5073000" />
+      <workItem from="1541559611360" duration="1654000" />
+      <workItem from="1541815421209" duration="3208000" />
+      <workItem from="1541821865474" duration="7669000" />
+      <workItem from="1541852613979" duration="3429000" />
+      <workItem from="1541901480051" duration="15807000" />
+      <workItem from="1541943455925" duration="908000" />
+      <workItem from="1542000175493" duration="7759000" />
+      <workItem from="1542024980124" duration="2368000" />
+      <workItem from="1542070627316" duration="196000" />
+      <workItem from="1542085024099" duration="6396000" />
+      <workItem from="1542158828737" duration="5554000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="70063000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="PlantUML" order="3" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50697213" side_tool="true" weight="0.32768363" />
+      <window_info anchor="bottom" id="JRebel Console" order="8" sideWeight="0.50959486" side_tool="true" weight="0.39555556" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.19402985" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="9" sideWeight="0.4904051" weight="0.39555556" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32941177" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978678" weight="0.39777777" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4930279" weight="0.32768363" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.4969605" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969605" weight="0.3247768" />
+      <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.4969605" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.3299435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4852941" visible="true" weight="0.20415778" />
+      <window_info anchor="bottom" id="Problems" order="15" weight="0.3299435" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="JRebel" order="5" sideWeight="0.5147059" side_tool="true" weight="0.195629" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.328125" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/feignclients/UserFeignService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/http/MediaType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-feign/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/interceptor/FeignTokenInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/interceptor/FeignRequestInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-feign/src/main/java/com/rui/cn/config/ApplicationExceptionAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-feign/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-B/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-B/src/test/java/com/rui/cn/CloudProviderApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-A/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-B/src/main/java/com/rui/cn/CloudProviderApplicationB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-A/src/main/java/com/rui/cn/CloudProviderApplicationA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="176" column="8" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/feignclients/HelloFenginService.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/config/FeignMultipartSupportConfig.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/config/FeignOkhttpConfig.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/interceptor/FeignTokenInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/interceptor/FeignRequestInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/controller/HelloFeigenController.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-A/src/main/java/com/rui/cn/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/config/HelloFeigenServiceConfig.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/config/ApplicationExceptionAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/config/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-B/src/main/java/com/rui/cn/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/RandomRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="37" column="66" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/annotation/AvoidScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-B/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-A/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/config/RunBean1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.0.RELEASE/spring-cloud-netflix-ribbon-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/support/AbstractLoadBalancingClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736">
+          <caret line="43" column="79" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="28" column="86" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/ServiceInstanceChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/config/RibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-ribbon/src/main/java/com/rui/cn/CloudRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.0.RELEASE/spring-cloud-netflix-ribbon-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/SpringClientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+          <folding>
+            <element signature="e#1978#1979#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/IRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/http/client/ClientHttpRequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE-sources.jar!/org/springframework/util/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1021">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="726" column="18" selection-start-line="726" selection-start-column="18" selection-end-line="726" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.0.RELEASE/spring-cloud-netflix-ribbon-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+          <folding>
+            <element signature="e#5313#5314#0" expanded="true" />
+            <element signature="e#5372#5373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cloud-provider-B</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,70 @@
+server:
+  port: 6001
+spring:
+  application:
+    name: cloud-zuul
+
+#eureka
+eureka:
+  client: #
+    security:
+      basic:
+        user: admin
+        password: admin
+    service-url:
+      #defaultZone: http://${eureka.client.security.basic.user}:${eureka.client.security.basic.password}@127.0.0.1:8761/eureka
+      defaultZone: http://eureka.springcloud.cn/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 10 # 表示eureka client发送心跳给server端的频率(默认30s)
+    lease-expiration-duration-in-seconds: 30 # 表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance。（默认90s）
+    instance-id: ${spring.application.name}-${server.port}  # 在信息列表时显示主机名称
+    prefer-ip-address: true     # 注册中心显示ip
+
+info:  #注册信息
+  app.name: cloud-provider
+  company.name: com.rui.cn
+  build.artifactId: cloud-zuul
+  build.version: 1.0-SNAPSHOT
+
+#zuul相关配置
+zuul:
+  ignored-services: "*" #通配符配置禁用使用eureka注册中心的服务名访问
+  ignored-patterns: /**/getAnimalSyn/**     #通配符配置屏蔽接口
+  add-host-header: true
+  add-proxy-headers: true
+  routes: #服务的代理名称
+    CLOUD-PROVIDER : /cloud-proxy/** #方式一 服务名称：代理名称(推荐使用)
+  host:
+    socket-timeout-millis: 30000 #默认10000
+    connect-timeout-millis: 4000 # 默认2000
+    max-per-route-connections: 20 #每个路由的最大连接（默认20）
+    max-total-connections: 200  #路由的最大连接数（默认200）
+  retryable: true #开启重试
+
+#hystrix
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: false # 关闭连接超时 默认1s
+        isolation:
+          strategy: THREAD #开启线程隔离
+          thread:
+            timeoutInMilliseconds: 5000
+
+
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 3000
+  MaxAutoRetries: 1 # 对第一次请求的服务的重试次数
+  MaxAutoRetriesNextServer: 1 #要重试的下一个服务的最大数量（不包括第一个服务）
+  OkToRetryOnAllOperations: true
+  NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule #负载均衡的策略
+  okhttp:
+    enabled: true
+  eager-load:
+    enabled: true
+    clients: CLOUD-PROVIDER # ribbon的饿加载：ribbon在客户端负载均衡的时候并不是在启动的时候就加载在上下文，而是在实际请求时才创建，
+                            # 因此在第一次调用很容易引起超时，通过指定ribbon具体客户端名称来开启饿加载，既在启动时就加载所有配置在应用上下文
+

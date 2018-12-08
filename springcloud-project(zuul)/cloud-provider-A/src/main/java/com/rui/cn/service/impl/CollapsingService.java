@@ -25,7 +25,7 @@ public class CollapsingService implements ICollapsingService {
 
     @Override
     @HystrixCollapser(batchMethod = "collapsingList", collapserProperties = {
-            @HystrixProperty(name = "timerDelayInMilliseconds", value = "1000")
+            @HystrixProperty(name = "timerDelayInMilliseconds", value = "100")
     })
     public Future<Animal> collapsing(Integer id) {
         return null;
@@ -33,14 +33,14 @@ public class CollapsingService implements ICollapsingService {
 
     @Override
     @HystrixCollapser(batchMethod = "collapsingListGlobal", scope = Scope.GLOBAL, collapserProperties = {
-            @HystrixProperty(name = "timerDelayInMilliseconds", value = "1000")
+            @HystrixProperty(name = "timerDelayInMilliseconds", value = "100")
     })
     public Future<Animal> collapsingGlobal(Integer id) {
         return null;
     }
 
     @HystrixCollapser(batchMethod = "collapsingList", collapserProperties = {
-            @HystrixProperty(name = "timerDelayInMilliseconds", value = "1000")
+            @HystrixProperty(name = "timerDelayInMilliseconds", value = "100")
     })
     @Override
     public Animal collapsingSyn(Integer id) {

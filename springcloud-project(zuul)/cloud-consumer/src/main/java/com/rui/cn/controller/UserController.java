@@ -63,7 +63,7 @@ public class UserController {
      *
      * @return
      */
-    @PostMapping(value = "/getAnimal",produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @PostMapping(value = "/getAnimal",produces = MediaType.TEXT_PLAIN_VALUE)
     @ApiOperation(value = "请求聚合/合并-1")
     public String getAnimal() {
         String s=iCollapsingService.collapsing(1);
@@ -77,10 +77,10 @@ public class UserController {
      * @return
      * @throws InterruptedException
      */
-    @PostMapping(value = "/getAnimalSyn",produces = MediaType.TEXT_PLAIN_VALUE)
-    @ApiOperation(value = "请求聚合/合并-2")
+    @PostMapping(value = "/getAnimalSyn", produces = "text/plain;charset=UTF-8")
+    @ApiOperation(value = "请求聚合/合并-2(zuul filter会检测到这个请求直接返回 500，然后进入hytrix熔断)")
     public String getAnimalSyn() {
-        String s=iCollapsingService.collapsing(2);
+        String s=iCollapsingService.collapsingSyn(null);
         System.out.println(s);
         return s;
     }
@@ -95,7 +95,7 @@ public class UserController {
     @PostMapping(value = "/getAnimalGolbal",produces = MediaType.TEXT_PLAIN_VALUE)
     @ApiOperation(value = "请求聚合/合并-3")
     public String getAnimalGolbal(){
-        String s=iCollapsingService.collapsing(3);
+        String s=iCollapsingService.collapsingGlobal(3);
         System.out.println(s);
         return s;
     }

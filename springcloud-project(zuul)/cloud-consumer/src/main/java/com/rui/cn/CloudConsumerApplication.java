@@ -6,6 +6,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
  * @description：启动类
@@ -17,6 +18,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableFeignClients
 @EnableEurekaClient
 @EnableHystrix
+@EnableWebMvc
 @ComponentScan(basePackages = {"com.rui.cn"})
 public class CloudConsumerApplication {
     public static void main(String[] args) {

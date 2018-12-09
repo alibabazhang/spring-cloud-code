@@ -3,7 +3,9 @@ server:
 spring:
   application:
     name: cloud-zuul
-
+logging:
+  level:
+    com.rui.cn*:  debug
 #eureka
 eureka:
   client: #
@@ -29,14 +31,14 @@ info:  #注册信息
 #zuul相关配置
 zuul:
   ignored-services: "*" #通配符配置禁用使用eureka注册中心的服务名访问
-  ignored-patterns: /**/getAnimalSyn/**     #通配符配置屏蔽接口
+  #ignored-patterns: /**/getAnimalSyn/**     #通配符配置屏蔽接口
   add-host-header: true
   add-proxy-headers: true
   routes: #服务的代理名称
     CLOUD-PROVIDER : /cloud-proxy/** #方式一 服务名称：代理名称(推荐使用)
   host:
-    socket-timeout-millis: 30000 #默认10000
-    connect-timeout-millis: 4000 # 默认2000
+    socket-timeout-millis: 10000 #默认10000
+    connect-timeout-millis: 2000 # 默认2000
     max-per-route-connections: 20 #每个路由的最大连接（默认20）
     max-total-connections: 200  #路由的最大连接数（默认200）
   retryable: true #开启重试
@@ -55,8 +57,8 @@ hystrix:
 
 
 ribbon:
-  ConnectTimeout: 3000
-  ReadTimeout: 3000
+  ConnectTimeout: 3500
+  ReadTimeout: 3500
   MaxAutoRetries: 1 # 对第一次请求的服务的重试次数
   MaxAutoRetriesNextServer: 1 #要重试的下一个服务的最大数量（不包括第一个服务）
   OkToRetryOnAllOperations: true

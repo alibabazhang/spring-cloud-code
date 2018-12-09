@@ -19,7 +19,7 @@ public class ICollapsingServiceImpl implements ICollapsingService {
 
     @Override
     public String collapsingSyn(Integer id) {
-        return null;
+        return "filter 过滤异常";
     }
 
     @Override

@@ -3,7 +3,6 @@ package com.rui.cn;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.BeanIds;
@@ -13,10 +12,10 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class CloudZuulServerApplication extends WebSecurityConfigurerAdapter {
+public class CloudAuthServerApplication extends WebSecurityConfigurerAdapter {
 
     public static void main(String[] args) {
-        SpringApplication.run(CloudZuulServerApplication.class, args);
+        SpringApplication.run(CloudAuthServerApplication.class, args);
     }
 
     @Bean(name = BeanIds.AUTHENTICATION_MANAGER)

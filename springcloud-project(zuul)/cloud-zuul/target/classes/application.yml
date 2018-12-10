@@ -67,6 +67,16 @@ ribbon:
     enabled: true
   eager-load:
     enabled: true
-    clients: CLOUD-PROVIDER # ribbon的饿加载：ribbon在客户端负载均衡的时候并不是在启动的时候就加载在上下文，而是在实际请求时才创建，
-                            # 因此在第一次调用很容易引起超时，通过指定ribbon具体客户端名称来开启饿加载，既在启动时就加载所有配置在应用上下文
+    clients: CLOUD-PROVIDER # ribbon的饿加载：ribbon在客户端负载均衡的时候并不是在启动的时候就加载在上下文，而是在实际请求时才创建，因此在第一次调用很容易引起超时，通过指定ribbon具体客户端名称来开启饿加载，既在启动时就加载所有配置在应用上下文
 
+
+security:
+  oauth2:
+    client:
+      access-token-uri: http://localhost:7777/uaa/oauth/token #令牌端点
+      user-authorization-uri: http://localhost:7777/uaa/oauth/authorize #授权端点
+      client-id: zuul_server #OAuth2客户端ID
+      client-secret: secret #OAuth2客户端密钥
+    resource:
+      jwt:
+        key-value: springcloud123 #使用对称加密方式，默认算法为HS256

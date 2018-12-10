@@ -29,6 +29,7 @@
     <module>cloud-provider-A</module>
     <module>cloud-provider-B</module>
     <module>cloud-zuul</module>
+    <module>cloud-auth-server</module>
   </modules>
 
   <dependencyManagement>

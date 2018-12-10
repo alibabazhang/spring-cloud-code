@@ -1,0 +1,4 @@
+server:
+  port: 7777
+  servlet:
+    context-path: /uaa

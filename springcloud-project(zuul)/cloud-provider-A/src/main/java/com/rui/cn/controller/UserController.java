@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Enumeration;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
@@ -25,6 +26,11 @@ public class UserController {
 
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public String addUser(User user, HttpServletRequest request) {
+        Enumeration headerNames = request.getHeaderNames();
+        while (headerNames.hasMoreElements()) {
+            String key = (String) headerNames.nextElement();
+            System.out.println(key + ": " + request.getHeader(key));
+        }
         // 写入缓存
         userService.adduser(user, request);
         userService.adduser(user, request);
@@ -36,7 +42,12 @@ public class UserController {
     }
 
     @RequestMapping(value = "/update", method = RequestMethod.POST)
-    public String updateUser(@RequestBody User user) {
+    public String updateUser(@RequestBody User user,HttpServletRequest request) {
+        Enumeration headerNames = request.getHeaderNames();
+        while (headerNames.hasMoreElements()) {
+            String key = (String) headerNames.nextElement();
+            System.out.println(key + ": " + request.getHeader(key));
+        }
         return userService.updateUser(user);
     }
 

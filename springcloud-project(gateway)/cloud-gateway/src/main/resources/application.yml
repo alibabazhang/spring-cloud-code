@@ -1,0 +1,39 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring-cloud-gateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: baidu_route  #当访问http://localhost:8080/baidu,直接转发到https://www.baidu.com/
+          uri: http://www.baidu.com
+          predicates:
+            - Path=/baidu/test/**
+          filters:
+            - StripPrefix=2  #去除2级前缀
+
+#        - id: after_route
+#          uri: http://jd.com:80/
+#          predicates:
+#            - After=2019-01-08T15:41:27.376+08:00[Asia/Shanghai] #UTC时间2019-01-08T17:36:32之后的跳转百度首页
+
+hystrix:command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 5000
+
+logging: ## Spring Cloud Gateway的日志配置
+  level:
+    org.springframework.cloud.gateway: TRACE
+    org.springframework.http.server.reactive: DEBUG
+    org.springframework.web.reactive: DEBUG
+    reactor.ipc.netty: DEBUG
+
+
+management:
+  endpoints: # http://localhost:8080/actuator/gateway/routes 查看网管信息
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

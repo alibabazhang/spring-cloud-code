@@ -2,26 +2,63 @@ server:
   port: 8080
 spring:
   application:
-    name: spring-cloud-gateway
+    name: cloud-gateway
 
   cloud:
     gateway:
+      discovery:
+        locator:
+          enabled: true #开启与服务发现组件整合，通过serviceId转发到具体的服务实例 默认是false
+          lowerCaseServiceId: true #当注册中心为eureka时，设置为true表示启用小写的serviceId进行服务的路由转发
       routes:
-        - id: baidu_route  #������http://localhost:8080/baidu,ֱ��ת����https://www.baidu.com/
-          uri: http://www.baidu.com
-          predicates:
-            - Path=/baidu/test/**
-          filters:
-            - StripPrefix=2  #ȥ��2��ǰ׺
+      - id: baidu_route  #请求http://localhost:8080/baidu/test跳转到https://www.baidu.com/
+        uri: http://www.baidu.com
+        predicates:
+        - Path=/baidu/test/**
+        filters:
+        - StripPrefix=2  #去掉2级前缀
+      - id: consumer_route
+        uri: lb://cloud-consumer
+        predicates:
+        - Path=/cloud-consumer/**
+        filters:
+        - RewritePath=/cloud-consumer/(?<segment>.*), /$\{segment}
 
 #        - id: after_route
 #          uri: http://jd.com:80/
 #          predicates:
-#            - After=2019-01-08T15:41:27.376+08:00[Asia/Shanghai] #UTCʱ��2019-01-08T17:36:32֮�����ת�ٶ���ҳ
+#            - After=2019-01-08T15:41:27.376+08:00[Asia/Shanghai] #UTC时间2019-01-08T15:41:27.376+08:00[Asia/Shanghai]跳转到京东
+# ribbon配置
+ribbon:
+  eager-load:
+    enabled: true #ribbob开启饿加载
+    clients: CLOUD-CONSUMER
 
+# hystrix配置
 hystrix:command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 5000
 
-logging: ## Spring Cloud Gateway����־����
+eureka:
+  client: # 客户端进行Eureka注册的配置
+    security:
+      basic:
+        user: admin
+        password: admin
+    service-url:
+      #defaultZone: http://${eureka.client.security.basic.user}:${eureka.client.security.basic.password}@127.0.0.1:8761/eureka
+      defaultZone: http://eureka.springcloud.cn/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 10 # 表示eureka client发送心跳给server端的频率。若在lease-expiration-duration-in-seconds后，server端没有收到client的心跳，则将摘除该instance（默认是30秒）
+    lease-expiration-duration-in-seconds: 30 # ，表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间（默认是90秒）
+    instance-id: ${spring.application.name}-${server.port}  # 在信息列表时显示主机名称
+    prefer-ip-address: true     # 访问的路径变为IP地址
+
+info:  #设置eureka注册中心得info信息
+  app.name: cloud-feign-consumer
+  company.name: com.rui.cn
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
+logging: ## Spring Cloud Gateway日志配置
   level:
     org.springframework.cloud.gateway: TRACE
     org.springframework.http.server.reactive: DEBUG
@@ -30,7 +67,7 @@ logging: ## Spring Cloud Gateway����־����
 
 
 management:
-  endpoints: # http://localhost:8080/actuator/gateway/routes �鿴������Ϣ
+  endpoints: # http://localhost:8080/actuator/gateway/routes 查看路由策略
     web:
       exposure:
         include: '*'

@@ -13,7 +13,7 @@ spring:
     force: true
 
  application:
-   name: cloud-feignhystrix-consumer
+   name: cloud-consumer
 eureka:
   client: # 客户端进行Eureka注册的配置
     security:

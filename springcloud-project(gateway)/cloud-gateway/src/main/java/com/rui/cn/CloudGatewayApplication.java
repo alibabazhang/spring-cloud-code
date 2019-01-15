@@ -24,43 +24,57 @@ public class CloudGatewayApplication {
      * 基本的转发
      * 当访问http://localhost:8080/jd
      * 转发到http://jd.com
+     *
      * @param builder
      * @return
      */
     @Bean("jd_route")
-    public RouteLocator routeLocator(RouteLocatorBuilder builder){
+    public RouteLocator routeLocator(RouteLocatorBuilder builder) {
         /// jd/路径下的所有请求替换掉 前缀，并且代理到 rui路径下
         return builder.routes()
-                 .route( r -> r.path("/jd/**")
-                         .filters(f -> f.rewritePath("/jd/(?<segment>.*)","/$\\{segment}"))
-                .uri("http://jd.com:80/")
-                .id("jd_route"))
+                .route(r -> r.path("/jd/**")
+                        .filters(f -> f.rewritePath("/jd/(?<segment>.*)", "/$\\{segment}"))
+                        .uri("http://jd.com:80/")
+                        .id("jd_route"))
                 .build();
     }
+
     @Bean("retry_route")
-    public RouteLocator routeRetry(RouteLocatorBuilder builder){
+    public RouteLocator routeRetry(RouteLocatorBuilder builder) {
         /// 500错误是启用重试 且重试次数为2
         return builder.routes()
-                .route( r -> r.path("/test/retry")
+                .route(r -> r.path("/test/retry")
                         .filters(f -> f.retry(congfig -> congfig.setRetries(2).setStatuses(HttpStatus.INTERNAL_SERVER_ERROR))
-                                .addRequestParameter("key","abc")
-                                .addRequestParameter("count","2")
-                        .stripPrefix(1))
+                                .addRequestParameter("key", "abc")
+                                .addRequestParameter("count", "2")
+                                .stripPrefix(1))
                         .uri("http://localhost:7001")
                         .id("retry_route"))
                 .build();
     }
+
     @Bean("hystrix_route")
-    public RouteLocator routeHystrix(RouteLocatorBuilder builder){
+    public RouteLocator routeHystrix(RouteLocatorBuilder builder) {
         /// hystirix 过滤器 设置熔断
         return builder.routes()
-                .route( r -> r.path("/test/hystrix")
-                        .filters(f -> f.addRequestParameter("isSleep","true")
-                        .hystrix(x -> x.setFallbackUri("forward:/fallback").setName("fallbackcmd ")))
+                .route(r -> r.path("/test/hystrix")
+                        .filters(f -> f.addRequestParameter("isSleep", "true")
+                                .hystrix(x -> x.setFallbackUri("forward:/fallback").setName("fallbackcmd ")))
                         .uri("http://localhost:7001")
                         .id("hystrix_route"))
                 .build();
     }
+
+//    @Bean("consumer_route")
+//    public RouteLocator routeCloudConsumer(RouteLocatorBuilder builder) {
+//        /// jd/路径下的所有请求替换掉 前缀，并且代理到 rui路径下
+//        return builder.routes()
+//                .route(r -> r.path("/cloud-consumer/**")
+//                        .filters(f -> f.rewritePath("/cloud-consumer/(?<segment>.*)", "/$\\{segment}"))
+//                        .uri("lb://cloud-consumer")
+//                        .id("consumer_route"))
+//                .build();
+//    }
 
 }
 

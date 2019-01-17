@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: cloud-gateway
+  redis:
+    host: 10.10.30.11
+    port: 6381
+    database: 0
+    password: hzed2018
 
   cloud:
     gateway:
@@ -17,12 +22,41 @@ spring:
         - Path=/baidu/test/**
         filters:
         - StripPrefix=2  #去掉2级前缀
+      #整合eureka通过serviceId访问
       - id: consumer_route
         uri: lb://cloud-consumer
         predicates:
         - Path=/cloud-consumer/**
         filters:
         - RewritePath=/cloud-consumer/(?<segment>.*), /$\{segment}
+      #权重路由
+      - id: service1_v1
+        uri: lb://cloud-consumer/v1
+        predicates:
+        - Path=/weight
+        - Weight=service1, 95
+      - id: service1_v2
+        uri: lb://cloud-consumer/v2
+        predicates:
+        - Path=/weight
+        - Weight=service1, 5
+      #gatewal自带的限流算法
+      - id: rateLimit_route
+        uri:  lb://cloud-consumer
+        order: 0
+        predicates:
+        - Path=/test/v1
+        filters:
+        #filter名称必须是RequestRateLimiter
+        - StripPrefix=1  #去掉2级前缀
+        - name: RequestRateLimiter
+          args:
+            #使用SpEL按名称引用bean
+            key-resolver: "#{@remoteAddrKeyResolver}"
+            #允许用户每秒处理多少个请求
+            redis-rate-limiter.replenishRate: 1
+            #令牌桶的容量，允许在一秒钟内完成的最大请求数
+            redis-rate-limiter.burstCapacity: 5
 
 #        - id: after_route
 #          uri: http://jd.com:80/

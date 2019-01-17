@@ -1,5 +1,9 @@
 package com.rui.cn;
 
+import com.rui.cn.config.RemoteAddrKeyResolver;
+import com.rui.cn.filter.CustomGatewayFilter;
+import com.rui.cn.filter.GatewayRateLimitFilterByCpu;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.gateway.route.RouteLocator;
@@ -16,9 +20,18 @@ import org.springframework.http.HttpStatus;
 @SpringBootApplication
 public class CloudGatewayApplication {
 
+    @Autowired
+    private GatewayRateLimitFilterByCpu gatewayRateLimitFilterByCpu;
+
     public static void main(String[] args) {
         SpringApplication.run(CloudGatewayApplication.class, args);
     }
+
+    @Bean(name = RemoteAddrKeyResolver.BEAN_NAME)
+    public RemoteAddrKeyResolver remoteAddrKeyResolver() {
+        return new RemoteAddrKeyResolver();
+    }
+
 
     /**
      * 基本的转发
@@ -64,6 +77,22 @@ public class CloudGatewayApplication {
                         .id("hystrix_route"))
                 .build();
     }
+
+    @Bean("custom_route")
+    public RouteLocator customerRouteLocator(RouteLocatorBuilder builder) {
+        // 自动以过滤器 自定义限流算法
+        return builder.routes()
+                .route(r -> r.path("/test/customFilter")
+                        .filters(f -> f.filter(new CustomGatewayFilter()).stripPrefix(1)
+                                ///.filter(new GatewayRateLimitFilterByIp(5, 1, Duration.ofSeconds(1)))
+                                .filter(gatewayRateLimitFilterByCpu))
+                        .uri("http://localhost:7001")
+                        .order(0)
+                        .id("custom_filter")
+                )
+                .build();
+    }
+
 
 //    @Bean("consumer_route")
 //    public RouteLocator routeCloudConsumer(RouteLocatorBuilder builder) {

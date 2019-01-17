@@ -86,5 +86,18 @@ public class TestController {
         }
         return "No Sleep";
     }
+    @GetMapping("/customFilter")
+    public String customFilter(@RequestParam String name) {
+        return "customFilter, " + name + "!";
+    }
+    //============================================权重路由=================================================//
+    @GetMapping(value = "/v1")
+    public String v1() {
+        return "v1";
+    }
 
+    @GetMapping(value = "/v2")
+    public String v2() {
+        return "v2";
+    }
 }

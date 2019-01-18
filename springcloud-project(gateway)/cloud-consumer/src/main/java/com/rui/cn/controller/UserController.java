@@ -29,8 +29,8 @@ public class UserController {
      * @return
      */
     @RequestMapping(value = "/add", method = RequestMethod.POST, produces = MediaType.TEXT_PLAIN_VALUE)
-    public void addUser(@RequestBody @ApiParam(name = "用户", value = "传入json格式", required = true) User user, HttpServletResponse response) throws Exception {
-        response.getOutputStream().write(userFeignService.addUser(user).getBytes());
+    public String addUser(@RequestBody @ApiParam(name = "用户", value = "传入json格式", required = true) User user, HttpServletResponse response) throws Exception {
+        return userFeignService.addUser(user);
     }
 
     /**

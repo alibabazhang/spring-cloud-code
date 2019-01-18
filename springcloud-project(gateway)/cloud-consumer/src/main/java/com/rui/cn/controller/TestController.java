@@ -3,11 +3,13 @@ package com.rui.cn.controller;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Enumeration;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -99,5 +101,16 @@ public class TestController {
     @GetMapping(value = "/v2")
     public String v2() {
         return "v2";
+    }
+
+    @RequestMapping("/test")
+    public String test(HttpServletRequest request) {
+        System.out.println("----------------success access test method!----------------");
+        Enumeration headerNames = request.getHeaderNames();
+        while (headerNames.hasMoreElements()) {
+            String key = (String) headerNames.nextElement();
+            System.out.println(key + ": " + request.getHeader(key));
+        }
+        return "success access test method!!";
     }
 }

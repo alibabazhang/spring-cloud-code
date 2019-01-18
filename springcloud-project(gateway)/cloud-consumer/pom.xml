@@ -90,6 +90,12 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
+        <!--引入自定义核心包 测试鉴权-->
+        <dependency>
+            <groupId>com.rui.cn</groupId>
+            <artifactId>cloud-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

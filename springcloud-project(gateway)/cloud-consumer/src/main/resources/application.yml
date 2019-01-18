@@ -60,10 +60,22 @@ feign:
        connectTimeout: 5000
        readTimeout: 5000
        loggerLecvel: basic
-
+# ribbon配置
+ribbon:
+  eager-load:
+    enabled: true #ribbob开启饿加载
+    clients: CLOUD-PROVIDER
 logging:
   Level:
     com.rui.cn.feignclients.*: debug
+# hystrix配置
+hystrix:
+ command:
+  fallbackcmd:
+    execution:
+      isolation:
+        thread:
+          timeoutInMilliseconds: 5000
 #feigen在默认的情况下使用的是jdk原生的URLConnection发送http请求，没有连接池，但是每个地址都会保持一个长链接，可以使用htppclient okhttp替换默认的client节省资源
 
 #当feign和ribbon整合了hystrix之后可能会出现首次调用失败的问题，原因如下：
@@ -72,3 +84,4 @@ logging:
 #  -- 延长hystrix的超时时间hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds:50000
 #  -- 禁用hystrix的超时时间hystrix.command.default.execution.timout.enabled:false
 #  -- 直接关闭hytrix feign.hystrix.enabled: false
+# hystix 官网配置 https://github.com/Netflix/Hystrix/wiki/Configuration

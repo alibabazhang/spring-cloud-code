@@ -3,17 +3,23 @@ server:
   port: 7001
   tomcat:
     uri-encoding: utf-8
+  servlet:
+    context-path: /cloud/consumer
 
 #spring相关
 spring:
- http:
-  encoding:
-    charset: UTF-8
-    enabled: true
-    force: true
-
- application:
-   name: cloud-feignhystrix-consumer
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  servlet:  #文件上传
+    multipart:
+      enabled: true # 开启http文件上传
+      max-request-size: 1000MB #设置最大的请求大小，默认10MB，若不限制配置为-1
+      max-file-size: 100MB #设置单个文件上传的最大长度，默认是1MB，若不限制配置为-1
+  application:
+    name: cloud-consumer
 eureka:
   client: # 客户端进行Eureka注册的配置
     security:
@@ -22,7 +28,7 @@ eureka:
         password: admin
     service-url:
       #defaultZone: http://${eureka.client.security.basic.user}:${eureka.client.security.basic.password}@127.0.0.1:8761/eureka
-      defaultZone: http://eureka.springcloud.cn/eureka
+      defaultZone: http://eureka.didispace.com/eureka/
   instance:
     lease-renewal-interval-in-seconds: 10 # 表示eureka client发送心跳给server端的频率。若在lease-expiration-duration-in-seconds后，server端没有收到client的心跳，则将摘除该instance（默认是30秒）
     lease-expiration-duration-in-seconds: 30 # ，表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间（默认是90秒）
@@ -57,13 +63,32 @@ feign:
    config:
      default:
        errorDecoder: com.rui.cn.hystrixconfig.FeignErrorDecoder
-       connectTimeout: 5000
-       readTimeout: 5000
+       connectTimeout: 4500
+       readTimeout: 4500
        loggerLecvel: basic
+
+#ribbon配置
+ribbon:
+  ConnectTimeout: 4500
+  ReadTimeout: 4500
+  MaxAutoRetries: 1 # 对第一次请求的服务的重试次数
+  MaxAutoRetriesNextServer: 1 #要重试的下一个服务的最大数量（不包括第一个服务）
+  OkToRetryOnAllOperations: true
+  NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule #负载均衡的策略
+  okhttp:
+    enabled: false  #开启okhttp
+  http:
+    client:
+      enabled: true
+  eager-load:
+    enabled: true
+    clients: CLOUD-PROVIDER # ribbon的饿加载：ribbon在客户端负载均衡的时候并不是在启动的时候就加载在上下文，而是在实际请求时才创建，因此在第一次调用很容易引起超时，通过指定ribbon具体客户端名称来开启饿加载，既在启动时就加载所有配置在应用上下文
 
 logging:
   Level:
     com.rui.cn.feignclients.*: debug
+    com.itmuch.cloud.study.user.feign.UserFeignClient: debug
+
 #feigen在默认的情况下使用的是jdk原生的URLConnection发送http请求，没有连接池，但是每个地址都会保持一个长链接，可以使用htppclient okhttp替换默认的client节省资源
 
 #当feign和ribbon整合了hystrix之后可能会出现首次调用失败的问题，原因如下：

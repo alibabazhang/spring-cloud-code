@@ -6,7 +6,11 @@ server:
 spring:
   application:
     name: cloud-provider
-
+  servlet:  #文件上传
+    multipart:
+      enabled: true # 开启http文件上传
+      max-request-size: 1000MB #设置最大的请求大小，默认10MB，若不限制配置为-1
+      max-file-size: 100MB #设置单个文件上传的最大长度，默认是1MB，若不限制配置为-1
 #eureka
 eureka:
   client: #
@@ -16,7 +20,7 @@ eureka:
         password: admin
     service-url:
       #defaultZone: http://${eureka.client.security.basic.user}:${eureka.client.security.basic.password}@127.0.0.1:8761/eureka
-      defaultZone: http://eureka.springcloud.cn/eureka
+      defaultZone: http://eureka.didispace.com/eureka/
   instance:
     lease-renewal-interval-in-seconds: 10 # 表示eureka client发送心跳给server端的频率(默认30s)
     lease-expiration-duration-in-seconds: 30 # 表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance。（默认90s）

@@ -14,15 +14,15 @@ import org.springframework.web.bind.annotation.PostMapping;
  * @author zhangrl
  * @time 2018/11/19-14:33
  **/
-@FeignClient(value = "CLOUD-ZUUL", configuration = FeigenServiceConfig.class, fallback = ICollapsingServiceImpl.class)
+@FeignClient(value = "CLOUD-PROVIDER", configuration = FeigenServiceConfig.class, fallback = ICollapsingServiceImpl.class)
 public interface ICollapsingService {
-    @PostMapping(value = "/zuul/cloud-proxy/user/getAnimal", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/user/getAnimal", consumes = MediaType.APPLICATION_JSON_VALUE)
     String collapsing(Integer id);
 
-    @PostMapping(value = "/zuul/cloud-proxy/user/getAnimalSyn", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/user/getAnimalSyn", consumes = MediaType.APPLICATION_JSON_VALUE)
     String collapsingSyn(Integer id);
 
-    @PostMapping(value = "/zuul/cloud-proxy/user/getAnimalGolbal", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/user/getAnimalGolbal", consumes = MediaType.APPLICATION_JSON_VALUE)
     String collapsingGlobal(Integer id);
 
 }

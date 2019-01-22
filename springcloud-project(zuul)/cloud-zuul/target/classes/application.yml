@@ -3,9 +3,19 @@ server:
 spring:
   application:
     name: cloud-zuul
+  servlet:  #zuul的文件上传，继承自springboot
+    multipart:
+      enabled: true # 开启http文件上传
+      max-request-size: 1000MB #设置最大的请求大小，默认10MB，若不限制配置为-1
+      max-file-size: 100MB #设置单个文件上传的最大长度，默认是1MB，若不限制配置为-1
+      location: / #上传的；临时目录
+      file-size-threshold: 1MB #当上传文件达到1mb时进行磁盘写入
 logging:
   level:
     com.rui.cn*:  debug
+    org.springframework.http.server.reactive: DEBUG
+    org.springframework.web.reactive: DEBUG
+    com.netflix.zuul*: TRACE
 #eureka
 eureka:
   client: #
@@ -15,7 +25,7 @@ eureka:
         password: admin
     service-url:
       #defaultZone: http://${eureka.client.security.basic.user}:${eureka.client.security.basic.password}@127.0.0.1:8761/eureka
-      defaultZone: http://eureka.springcloud.cn/eureka
+      defaultZone: http://eureka.didispace.com/eureka/
   instance:
     lease-renewal-interval-in-seconds: 10 # 表示eureka client发送心跳给server端的频率(默认30s)
     lease-expiration-duration-in-seconds: 30 # 表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance。（默认90s）
@@ -34,45 +44,69 @@ zuul:
   #ignored-patterns: /**/getAnimalSyn/**     #通配符配置屏蔽接口
   add-host-header: true
   add-proxy-headers: true
+  ribbon-isolation-strategy: thread #设置Hystrix隔离策略为线程池
+  threadPool:
+    useSeparateThreadPools: true #每个路由使用独立的线程池
+    threadPoolKeyPrefix: zuulgateway #自定义线程前缀
   routes: #服务的代理名称
-    CLOUD-PROVIDER : /cloud-proxy/** #方式一 服务名称：代理名称(推荐使用)
-  host:
+    CLOUD-CONSUMER : /cloud-proxy/** #方式一 服务名称：代理名称(推荐使用)
+  host: #zuul.host.connect-timeout-millis， zuul.host.socket-timeout-millis这两个配置，这两个和ribbon都是配超时的。区别在于，如果路由方式是serviceId的方式，那么ribbon的生效，如果是url的方式，则zuul.host开头的生效。（此处重要！使用serviceId路由和url路由是不一样的超时策略）
     socket-timeout-millis: 10000 #默认10000
-    connect-timeout-millis: 2000 # 默认2000
+    connect-timeout-millis: 10000 # 默认2000
     max-per-route-connections: 20 #每个路由的最大连接（默认20）
     max-total-connections: 200  #路由的最大连接数（默认200）
   retryable: true #开启重试
   ribbon:
     eager-load:
       enabled: true  #饿加载机制
-#hystrix
+  #zuul的限流机制
+  ratelimit:
+    enabled: true #启用开关
+    repository: in_memory #key的存储类型
+    key-prefix: springcloud-book #按粒度拆拆分的；临时变量key前缀
+    behind-proxy: true #表示代理之后
+    default-policy: #全局限流策略，可单独细化到服务颗粒
+      limit: 2  #在一个单位时间窗口的请求数量
+      quota: 1  #在一个单位时间窗口的请求时间限制,默认值 (秒)
+      refresh-interval: 10  #单位时间窗口刷新时间,默认值 (秒)
+      type:
+        - user #可指定用户颗粒
+        - origin #制定客户端地址颗粒
+        - url #可指定url颗粒
+  #采用本地内存存储的方式，在10s的时间窗口内不能超过2次的接口调用
+
+
+#hystrix 配置详解https://blog.csdn.net/u012314558/article/details/78347219
 hystrix:
+  threadpool:
+    default:
+      coreSize: 20
+      maximumSize: 50
+      maxQueueSize: -1
+      allowMaximumSizeToDivergeFromCoreSize: true #此属性允许maximumSize的配置生效。 那么该值可以等于或高于coreSize。
   command:
     default:
       execution:
         timeout:
-          enabled: false # 关闭连接超时 默认1s
+          enabled: false
         isolation:
-          strategy: THREAD #开启线程隔离
           thread:
-            timeoutInMilliseconds: 5000
-
-
+            interruptOnTimeout: false
+            timeoutInMilliseconds: 9000
+#ribbon配置
 ribbon:
-  ConnectTimeout: 3500
-  ReadTimeout: 3500
-  MaxAutoRetries: 1 # 对第一次请求的服务的重试次数
-  MaxAutoRetriesNextServer: 1 #要重试的下一个服务的最大数量（不包括第一个服务）
-  OkToRetryOnAllOperations: true
+  ConnectTimeout: 4500
+  ReadTimeout: 4500
+  MaxAutoRetries: 0 # 对第一次请求的服务的重试次数
+  MaxAutoRetriesNextServer: 0 #要重试的下一个服务的最大数量（不包括第一个服务）
+  OkToRetryOnAllOperations: false #OKToRetryOnAllOperations的意义是无论是请求超时或者socket read timeout都进行重试，建议改成false或者不设
   NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule #负载均衡的策略
   okhttp:
     enabled: true  #开启okhttp
   http:
     client:
       enabled: false
-  eager-load:
-    enabled: true
-    clients: CLOUD-PROVIDER # ribbon的饿加载：ribbon在客户端负载均衡的时候并不是在启动的时候就加载在上下文，而是在实际请求时才创建，因此在第一次调用很容易引起超时，通过指定ribbon具体客户端名称来开启饿加载，既在启动时就加载所有配置在应用上下文
+
 #sso oauth2认证
 #security:
 #  oauth2:

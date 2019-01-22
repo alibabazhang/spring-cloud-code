@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.multipart.MultipartFile;
 
-@FeignClient(value = "CLOUD-ZUUL", configuration = FeigenServiceConfig.class, fallback = UserFeignServiceImpl.class)
+@FeignClient(value = "CLOUD-PROVIDER", configuration = FeigenServiceConfig.class, fallback = UserFeignServiceImpl.class)
 public interface UserFeignService {
 
-    @RequestMapping(value = "/zuul/cloud-proxy/user/add", method = RequestMethod.GET, consumes = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/user/add", method = RequestMethod.GET, consumes = MediaType.APPLICATION_JSON_VALUE)
     String addUser(User user);
 
-    @RequestMapping(value = "/zuul/cloud-proxy/user/update", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/user/update", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     String updateUser(@RequestBody User user);
 
     /***
@@ -28,7 +28,7 @@ public interface UserFeignService {
      * @param file
      * @return
      */
-    @RequestMapping(method = RequestMethod.POST, value = "/zuul/cloud-proxy/user/uploadFile",
+    @RequestMapping(method = RequestMethod.POST, value = "/user/uploadFile",
             produces = {MediaType.APPLICATION_JSON_UTF8_VALUE},
             consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     String fileUpload(@RequestPart(value = "file") MultipartFile file);

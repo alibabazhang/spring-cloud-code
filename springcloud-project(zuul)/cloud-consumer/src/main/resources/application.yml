@@ -3,8 +3,6 @@ server:
   port: 7001
   tomcat:
     uri-encoding: utf-8
-  servlet:
-    context-path: /cloud/consumer
 
 #spring相关
 spring:

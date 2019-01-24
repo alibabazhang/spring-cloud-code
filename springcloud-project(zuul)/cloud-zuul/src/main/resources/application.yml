@@ -97,9 +97,9 @@ hystrix:
 ribbon:
   ConnectTimeout: 4500
   ReadTimeout: 4500
-  MaxAutoRetries: 0 # 对第一次请求的服务的重试次数
+  MaxAutoRetries: 1 # 对第一次请求的服务的重试次数
   MaxAutoRetriesNextServer: 0 #要重试的下一个服务的最大数量（不包括第一个服务）
-  OkToRetryOnAllOperations: false #OKToRetryOnAllOperations的意义是无论是请求超时或者socket read timeout都进行重试，建议改成false或者不设
+  OkToRetryOnAllOperations: false #对所有操作请求都进行重试，的意义是无论是请求超时或者socket read timeout都进行重试，建议改成false或者不设
   NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule #负载均衡的策略
   okhttp:
     enabled: true  #开启okhttp

@@ -5,7 +5,6 @@ import com.rui.cn.entity.User;
 import com.rui.cn.feignclients.impl.UserFeignServiceImpl;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

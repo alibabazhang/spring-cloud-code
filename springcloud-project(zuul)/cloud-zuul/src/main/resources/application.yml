@@ -76,7 +76,7 @@ zuul:
   #采用本地内存存储的方式，在10s的时间窗口内不能超过2次的接口调用
 
 
-#hystrix 配置详解https://blog.csdn.net/u012314558/article/details/78347219
+#hystrix 配置详解https://blog.csdn.net/u012314558/article/details/78347219  https://blog.csdn.net/hry2015/article/details/78554846
 hystrix:
   threadpool:
     default:
@@ -91,7 +91,8 @@ hystrix:
           enabled: false
         isolation:
           thread:
-            interruptOnTimeout: false
+            interruptOnTimeout: false #是否超时中断正在执行的run，默认true
+            interruptOnCancel: false #表示设置是否在取消任务执行时，中断HystrixCommand.run() 的执行
             timeoutInMilliseconds: 9000
 #ribbon配置
 ribbon:
@@ -118,3 +119,11 @@ ribbon:
 #    resource:
 #      jwt:
 #        key-value: springcloud123 #使用对称加密方式，默认算法为HS256
+
+#
+#每个Hystrix参数都有4个地方可以配置，优先级从低到高如下，如果每个地方都配置相同的属性，则优先级高的值会覆盖优先级低的值
+#
+#1 内置全局默认值：写死在代码里的值
+#2 动态全局默认属性：通过属性文件配置全局的值
+#3 内置实例默认值：写死在代码里的实例的值
+#4 动态配置实例属性：通过属性文件配置特定实例的值

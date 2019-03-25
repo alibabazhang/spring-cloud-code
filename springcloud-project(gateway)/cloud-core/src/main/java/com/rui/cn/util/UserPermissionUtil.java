@@ -8,7 +8,12 @@ import javax.servlet.http.HttpServletRequest;
 import com.rui.cn.vo.User;
 import org.springframework.util.StringUtils;
 
-
+/**
+ * 模拟权限
+ *
+ * @author zhangrl
+ * @time 2019/3/12-13:34
+ **/
 public class UserPermissionUtil {
 	
 	/**

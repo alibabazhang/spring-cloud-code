@@ -1,0 +1,90 @@
+# Compiled class file
+*.class
+reble.xml
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# built application files  
+*.apk  
+*.ap_  
+  
+# files for the dex VM  
+*.dex  
+  
+# Java class files  
+*.class  
+*.jar  
+  
+# generated files  
+bin/  
+gen/  
+  
+# Eclipse project files  
+.classpath  
+.project  
+.DS_Store  
+
+# Operating System Files  
+  
+*.DS_Store  
+Thumbs.db  
+*.sw?  
+.#*  
+*#  
+*~  
+*.sublime-*  
+  
+# Build Artifacts  
+.gradle/  
+build/  
+target/  
+bin/  
+.mvn/
+dependency-reduced-pom.xml  
+  
+# Eclipse Project Files  
+.classpath  
+.project  
+.settings/  
+  
+# IntelliJ IDEA Files  
+*.iml
+/.idea/
+/out/ 
+/.mvn/
+*.iml  
+*.ipr  
+*.iws  
+*.idea  
+
+# CMake
+cmake-build-debug/
+
+# File-based project format
+*.iws
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+README.html  
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*

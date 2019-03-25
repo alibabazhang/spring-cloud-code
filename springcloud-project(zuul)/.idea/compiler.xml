@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-feign" />
+        <module name="cloud-zuul" />
+        <module name="cloud-provider-A" />
+        <module name="cloud-auth-server" />
         <module name="cloud-consumer" />
         <module name="cloud-eureka" />
-        <module name="cloud-feign" />
-        <module name="cloud-provider-A" />
         <module name="cloud-provider-B" />
-        <module name="cloud-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,5 +20,15 @@
       <module name="cloud-entity" target="1.8" />
       <module name="cloud-provider-B (1)" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-auth-server" options="-parameters" />
+      <module name="cloud-consumer" options="-parameters" />
+      <module name="cloud-eureka" options="-parameters" />
+      <module name="cloud-provider-A" options="-parameters" />
+      <module name="cloud-provider-B" options="-parameters" />
+      <module name="cloud-zuul" options="-parameters" />
+    </option>
   </component>
 </project>

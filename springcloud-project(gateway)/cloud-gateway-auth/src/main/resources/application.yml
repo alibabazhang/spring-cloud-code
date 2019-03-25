@@ -7,10 +7,10 @@ spring:
     gateway:
       discovery:
         locator:
-          enabled: true #\u5F00\u542F\u4E0E\u670D\u52A1\u53D1\u73B0\u7EC4\u4EF6\u6574\u5408\uFF0C\u901A\u8FC7serviceId\u8F6C\u53D1\u5230\u5177\u4F53\u7684\u670D\u52A1\u5B9E\u4F8B \u9ED8\u8BA4\u662Ffalse
-          lowerCaseServiceId: true #\u5F53\u6CE8\u518C\u4E2D\u5FC3\u4E3Aeureka\u65F6\uFF0C\u8BBE\u7F6E\u4E3Atrue\u8868\u793A\u542F\u7528\u5C0F\u5199\u7684serviceId\u8FDB\u884C\u670D\u52A1\u7684\u8DEF\u7531\u8F6C\u53D1
+          enabled: true #开启与服务发现组件整合，通过serviceId转发到具体的服务实例 默认是false
+          lowerCaseServiceId: true #当注册中心为eureka时，设置为true表示启用小写的serviceId进行服务的路由转发
       routes:
-      #\u6574\u5408eureka\u901A\u8FC7serviceId\u8BBF\u95EE
+      #整合eureka通过serviceId访问
       - id: consumer_route
         uri: lb://cloud-consumer
         predicates:
@@ -18,7 +18,7 @@ spring:
         filters:
         - RewritePath=/cloud-consumer/(?<segment>.*), /$\{segment}
 eureka:
-  client: # \u5BA2\u6237\u7AEF\u8FDB\u884CEureka\u6CE8\u518C\u7684\u914D\u7F6E
+  client: # 客户端进行Eureka注册的配置
     security:
       basic:
         user: admin
@@ -27,24 +27,24 @@ eureka:
       #defaultZone: http://${eureka.client.security.basic.user}:${eureka.client.security.basic.password}@127.0.0.1:8761/eureka
       defaultZone: http://eureka.springcloud.cn/eureka
   instance:
-    lease-renewal-interval-in-seconds: 10 # \u8868\u793Aeureka client\u53D1\u9001\u5FC3\u8DF3\u7ED9server\u7AEF\u7684\u9891\u7387\u3002\u82E5\u5728lease-expiration-duration-in-seconds\u540E\uFF0Cserver\u7AEF\u6CA1\u6709\u6536\u5230client\u7684\u5FC3\u8DF3\uFF0C\u5219\u5C06\u6458\u9664\u8BE5instance\uFF08\u9ED8\u8BA4\u662F30\u79D2\uFF09
-    lease-expiration-duration-in-seconds: 30 # \uFF0C\u8868\u793Aeureka server\u81F3\u4E0A\u4E00\u6B21\u6536\u5230client\u7684\u5FC3\u8DF3\u4E4B\u540E\uFF0C\u7B49\u5F85\u4E0B\u4E00\u6B21\u5FC3\u8DF3\u7684\u8D85\u65F6\u65F6\u95F4\uFF08\u9ED8\u8BA4\u662F90\u79D2\uFF09
-    instance-id: ${spring.application.name}-${server.port}  # \u5728\u4FE1\u606F\u5217\u8868\u65F6\u663E\u793A\u4E3B\u673A\u540D\u79F0
-    prefer-ip-address: true     # \u8BBF\u95EE\u7684\u8DEF\u5F84\u53D8\u4E3AIP\u5730\u5740
+    lease-renewal-interval-in-seconds: 10 # 表示eureka client发送心跳给server端的频率。若在lease-expiration-duration-in-seconds后，server端没有收到client的心跳，则将摘除该instance（默认是30秒）
+    lease-expiration-duration-in-seconds: 30 # ，表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间（默认是90秒）
+    instance-id: ${spring.application.name}-${server.port}  # 在信息列表时显示主机名称
+    prefer-ip-address: true     # 访问的路径变为IP地址
 
-info:  #\u8BBE\u7F6Eeureka\u6CE8\u518C\u4E2D\u5FC3\u5F97info\u4FE1\u606F
+info:  #设置eureka注册中心得info信息
   app.name: ${spring.application.name}
   company.name: com.rui.cn
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 
-# ribbon\u914D\u7F6E
+# ribbo配置
 ribbon:
   eager-load:
-    enabled: true #ribbob\u5F00\u542F\u997F\u52A0\u8F7D
+    enabled: true #ribbon的饿加载机制
     clients: CLOUD-CONSUMER,CLOUD-PROVIDER
 
-# hystrix\u914D\u7F6E
+# hystrix配置
 hystrix:command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
 
 logging: ## Spring Cloud Gateway\u65E5\u5FD7\u914D\u7F6E

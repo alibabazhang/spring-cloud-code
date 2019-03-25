@@ -14,10 +14,6 @@
     <bytecodeTargetLevel>
       <module name="cloud-common" target="1.8" />
       <module name="cloud-entity" target="1.8" />
-      <module name="cloud-eureka" target="1.8" />
-      <module name="cloud-feign" target="1.8" />
-      <module name="cloud-provider" target="1.8" />
-      <module name="springcloud-project" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -9,7 +9,7 @@ import org.springframework.http.client.ClientHttpResponse;
 import java.io.IOException;
 
 /**
- * todo
+ * resttemplate拦截器
  *
  * @author zhangrl
  * @time 2018/11/28-14:04

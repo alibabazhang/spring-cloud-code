@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true">
+    <!--配置spring环境变量-->
+    <springProperty scope="context" name="port" source="server.port"/>
+    <springProperty scope="context" name="appName" source="spring.application.name"/>
+    <springProperty scope="context" name="logHome" source="logging.logHome"/>
+    <springProperty scope="context" name="appName" source="logging.appName"/>
+    <springProperty scope="context" name="profileName" source="logging.profileName"/>
+
+    <!-- 控制台输出 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!--格式化输出：%d表示日期，%trace表示请求标志，%-5level：级别从左显示5个字符宽度，%msg日志消息，%n是换行符-->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [${appName}-${profileName} ${port}] [%X{trace}] [%X{moduleName}] - %-5level - %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 按照每天30M生成日志文件 -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--最新日志文件输出的文件名-->
+        <file>${logHome}/${appName}-${port}.log</file>
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${logHome}/${port}/%d{yyyy-MM-dd}/${appName}.%i.log</fileNamePattern>
+            <!-- 单文件最大大小 -->
+            <maxFileSize>1024MB</maxFileSize>
+            <!-- 日志文件保存周期 -->
+            <maxHistory>30</maxHistory>
+            <!-- 日志文件存储内存空间 -->
+            <totalSizeCap>20GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [${appName}-${profileName}  ${port}] [%X{trace}] [%X{moduleName}] - %-5level - %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <!-- 这些日志不要打印debug，不然数量太多 -->
+    <logger name="org.spring" level="WARN"/>
+    <logger name="org.springframework" level="WARN"/>
+    <logger name="org.hibernate" level="ERROR"/>
+    <logger name="org.mybatis" level="ERROR"/>
+    <logger name="org.apache" level="warn"/>
+    <logger name="org.thymeleaf" level="warn"/>
+    <logger name="io.netty" level="warn"/>
+
+    <!-- 日志输出级别 -->
+    <root level="debug">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
+        <!--<appender-ref ref="EMAIL"/>-->
+    </root>
+</configuration>

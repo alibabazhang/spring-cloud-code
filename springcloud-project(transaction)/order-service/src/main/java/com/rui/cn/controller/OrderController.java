@@ -46,7 +46,6 @@ public class OrderController extends TccParticipantController<UserOrder> {
     public ResponseEntity executeCancel(String txId) {
         UserOrder userOrder = orderDao.findByTxId(txId);
         if (userOrder == null) {
-//            return ResponseEntity.notFound().build();
             return ResponseEntity.status(HttpStatus.OK).build();
         }
         userOrder.setState(OrderState.CANCELED);
@@ -58,8 +57,7 @@ public class OrderController extends TccParticipantController<UserOrder> {
     public ResponseEntity executeConfirm(String txId) {
         UserOrder userOrder = orderDao.findByTxId(txId);
         if (userOrder == null) {
-//            return ResponseEntity.notFound().build();
-            return ResponseEntity.status(HttpStatus.OK).build();
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
         userOrder.setState(OrderState.CONFIRMED);
         orderDao.save(userOrder);

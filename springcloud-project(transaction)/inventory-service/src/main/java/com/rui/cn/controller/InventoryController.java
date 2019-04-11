@@ -39,19 +39,12 @@ public class InventoryController extends TccParticipantController<FrozeRequest> 
 
     @Override
     public ResponseEntity executeTry(String txId, FrozeRequest body) {
-        Inventory inventory = inventoryDao.findByProductCode(body.getProductCode());
-      /*  if (inventory == null) {
-            return ResponseEntity.notFound().build();
-        }
-        if (inventory.getLeftNum() < body.getFrozenNum()) {
-            return ResponseEntity.notFound().build();
-        }*/
         body.setTxId(txId);
         try {
             frozeRequestDao.save(body);
             return ResponseEntity.status(HttpStatus.OK).build();
         } catch (DataIntegrityViolationException e) {
-            return ResponseEntity.status(HttpStatus.OK).build();
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
     }
 
@@ -72,19 +65,14 @@ public class InventoryController extends TccParticipantController<FrozeRequest> 
 
     @Override
     public ResponseEntity executeConfirm(String txId) {
-//        try {
-//            TimeUnit.MINUTES.sleep(1);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
         Optional<FrozeRequest> optional = frozeRequestDao.findById(txId);
-        if (!optional.isPresent()) {
+        if (optional.isPresent()) {
             return ResponseEntity.status(HttpStatus.OK).build();
         }
         FrozeRequest frozeRequest = optional.get();
         Inventory inventory = inventoryDao.findByProductCode(frozeRequest.getProductCode());
         if (inventory == null) {
-            return ResponseEntity.notFound().build();
+            return ResponseEntity.ok().build();
         }
         frozeService.confirm(frozeRequest, inventory);
         return ResponseEntity.status(HttpStatus.OK).build();

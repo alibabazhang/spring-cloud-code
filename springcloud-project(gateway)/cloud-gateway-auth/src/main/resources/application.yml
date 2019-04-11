@@ -45,9 +45,9 @@ ribbon:
     clients: CLOUD-CONSUMER,CLOUD-PROVIDER
 
 # hystrix配置
-hystrix:command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
 
-logging: ## Spring Cloud Gateway\u65E5\u5FD7\u914D\u7F6E
+logging: ## Spring Cloud Gateway日志级别配置
   level:
     org.springframework.cloud.gateway: DEBUG
     org.springframework.http.server.reactive: DEBUG

@@ -4,9 +4,34 @@ server:
     uri-encoding: UTF-8
 
 spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/ams?characterEncoding=UTF-8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
   application:
     name: cloud-provider
 
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml #这里是mapper的配置文件
+  type-aliases-package: com.rui.cn.entity #这里是实体类的包
+# tx-lcn
+tx-lcn:
+#  aspect:
+#    log:
+#      file-path: logs/.txlcn/cloud-provider
+  client:
+    manager-address: 127.0.0.1:8070
+    resource-order: 0
+  logger:
+    enabled: true
+  message:
+    netty:
+      wait-time: 5000
+  springcloud:
+    loadbalance:
+      enabled: true
 #eureka
 eureka:
   client: #
@@ -18,8 +43,8 @@ eureka:
       #defaultZone: http://${eureka.client.security.basic.user}:${eureka.client.security.basic.password}@127.0.0.1:8761/eureka
       defaultZone: http://eureka.springcloud.cn/eureka
   instance:
-    lease-renewal-interval-in-seconds: 10 # 表示eureka client发送心跳给server端的频率(默认30s)
-    lease-expiration-duration-in-seconds: 30 # 表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance。（默认90s）
+    lease-renewal-interval-in-seconds: 30 # 表示eureka client发送心跳给server端的频率(默认30s)
+    lease-expiration-duration-in-seconds: 90 # 表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance。（默认90s）
     instance-id: ${spring.application.name}-${server.port}  # 在信息列表时显示主机名称
     prefer-ip-address: true     # 注册中心显示ip
 

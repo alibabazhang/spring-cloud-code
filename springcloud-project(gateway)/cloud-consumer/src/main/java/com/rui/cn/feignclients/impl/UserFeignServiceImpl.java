@@ -25,6 +25,11 @@ public class UserFeignServiceImpl implements UserFeignService {
     }
 
     @Override
+    public void deleteById(Integer id) {
+        throw new RuntimeException("删除异常");
+    }
+
+    @Override
     public String fileUpload(MultipartFile file) {
         return null;
     }

@@ -112,5 +112,13 @@ public class UserController {
         System.out.println(user2.get().getName());
         return "Success";
     }
+  //=====================================================测试分布式事物回滚=============================================================//
 
+    /**
+     * 删除用户
+     */
+  @RequestMapping("/deleteById")
+  public void deleteById(Integer id){
+      userService.deleteById(id);
+  }
 }

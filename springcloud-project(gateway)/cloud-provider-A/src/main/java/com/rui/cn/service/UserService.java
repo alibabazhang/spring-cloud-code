@@ -14,4 +14,6 @@ public interface UserService {
     String adduser(User user, HttpServletRequest request);
 
     String updateUser(User user);
+
+    void deleteById(Integer id);
 }

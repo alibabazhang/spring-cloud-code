@@ -1,5 +1,6 @@
 package com.rui.cn.controller;
 
+import com.rui.cn.feignclients.UserService;
 import com.rui.cn.entity.User;
 import com.rui.cn.feignclients.ICollapsingService;
 import com.rui.cn.feignclients.UserFeignService;
@@ -21,7 +22,8 @@ public class UserController {
     private UserFeignService userFeignService;
     @Autowired
     private ICollapsingService iCollapsingService;
-
+    @Autowired
+    private UserService userService;
     /**
      * 用于演示Feign的Get请求多参数传递
      *
@@ -98,5 +100,13 @@ public class UserController {
         String s = iCollapsingService.collapsingGlobal(3);
         System.out.println(s);
         return s;
+    }
+    //========================================================分布式事物==================================================================//
+    /**
+     * 删除用户
+     */
+    @RequestMapping("/deleteById")
+    public void deleteById(Integer id){
+        userService.deleteById(id);
     }
 }

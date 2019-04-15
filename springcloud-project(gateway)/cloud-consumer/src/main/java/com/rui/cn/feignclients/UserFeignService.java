@@ -21,6 +21,9 @@ public interface UserFeignService {
     @RequestMapping(value = "/user/update", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     String updateUser(@RequestBody User user);
 
+    @RequestMapping(value = "/user/deleteById", method = RequestMethod.GET)
+    void deleteById(Integer id);
+
     /***
      * 1.produces,consumes必填
      * 2.注意区分@RequestPart和RequestParam，不要将

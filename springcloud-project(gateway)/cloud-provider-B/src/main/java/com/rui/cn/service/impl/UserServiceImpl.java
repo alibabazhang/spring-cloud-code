@@ -4,8 +4,11 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.cache.annotation.CacheRemove;
 import com.netflix.hystrix.contrib.javanica.cache.annotation.CacheResult;
 import com.rui.cn.entity.User;
+import com.rui.cn.mapper.UserMapper;
 import com.rui.cn.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -17,6 +20,8 @@ import javax.servlet.http.HttpServletRequest;
  **/
 @Service
 public class UserServiceImpl implements UserService {
+    @Autowired
+    private UserMapper userMapper;
     /**
      * hytrix失败回调
      *
@@ -47,6 +52,12 @@ public class UserServiceImpl implements UserService {
         String s = "嘿嘿，名字都写错了！！！";
         System.out.println(s);
         return s;
+    }
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public void deleteById(Integer id) {
+        userMapper.deleteById(id);
+        int i=1/0;
     }
 }
 //让我们来逐个介绍下@HystrixCommand注解的各个参数：

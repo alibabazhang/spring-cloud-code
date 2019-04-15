@@ -113,4 +113,13 @@ public class UserController {
         return "Success";
     }
 
+    //=====================================================测试分布式事物回滚=============================================================//
+
+    /**
+     * 删除用户
+     */
+    @RequestMapping("/deleteById")
+    public void deleteById(Integer id){
+        userService.deleteById(id);
+    }
 }

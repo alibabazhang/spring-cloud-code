@@ -14,6 +14,34 @@ spring:
 
  application:
    name: cloud-consumer
+ datasource:
+   url: jdbc:mysql://127.0.0.1:3306/ams?characterEncoding=UTF-8
+   username: root
+   password: 123456
+   driver-class-name: com.mysql.jdbc.Driver
+   type: com.alibaba.druid.pool.DruidDataSource
+   application:
+     name: cloud-provider
+
+mybatis:
+   mapper-locations: classpath:mapper/*Mapper.xml #这里是mapper的配置文件
+   type-aliases-package: com.rui.cn.entity #这里是实体类的包
+# tx-lcn
+tx-lcn:
+#  aspect:
+#    log:
+#      file-path: logs/.txlcn/cloud-consumer
+  client:
+    manager-address: 127.0.0.1:8070
+    resource-order: 1
+  logger:
+    enabled: true
+  message:
+    netty:
+      wait-time: 5000
+  springcloud:
+    loadbalance:
+      enabled: true
 eureka:
   client: # 客户端进行Eureka注册的配置
     security:
@@ -24,8 +52,8 @@ eureka:
       #defaultZone: http://${eureka.client.security.basic.user}:${eureka.client.security.basic.password}@127.0.0.1:8761/eureka
       defaultZone: http://eureka.springcloud.cn/eureka
   instance:
-    lease-renewal-interval-in-seconds: 10 # 表示eureka client发送心跳给server端的频率。若在lease-expiration-duration-in-seconds后，server端没有收到client的心跳，则将摘除该instance（默认是30秒）
-    lease-expiration-duration-in-seconds: 30 # ，表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间（默认是90秒）
+    lease-renewal-interval-in-seconds: 30 # 表示eureka client发送心跳给server端的频率。若在lease-expiration-duration-in-seconds后，server端没有收到client的心跳，则将摘除该instance（默认是30秒）
+    lease-expiration-duration-in-seconds: 90 # ，表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间（默认是90秒）
     instance-id: ${spring.application.name}-${server.port}  # 在信息列表时显示主机名称
     prefer-ip-address: true     # 访问的路径变为IP地址
 
@@ -62,20 +90,20 @@ feign:
        loggerLecvel: basic
 # ribbon配置
 ribbon:
-  eager-load:
-    enabled: true #ribbob开启饿加载
-    clients: CLOUD-PROVIDER
+ eager-load:
+   enabled: true #ribbob开启饿加载
+   clients: CLOUD-PROVIDER
 logging:
   Level:
     com.rui.cn.feignclients.*: debug
 # hystrix配置
 hystrix:
  command:
-  fallbackcmd:
-    execution:
-      isolation:
-        thread:
-          timeoutInMilliseconds: 5000
+   fallbackcmd:
+     execution:
+       isolation:
+         thread:
+           timeoutInMilliseconds: 5000
 #feigen在默认的情况下使用的是jdk原生的URLConnection发送http请求，没有连接池，但是每个地址都会保持一个长链接，可以使用htppclient okhttp替换默认的client节省资源
 
 #当feign和ribbon整合了hystrix之后可能会出现首次调用失败的问题，原因如下：

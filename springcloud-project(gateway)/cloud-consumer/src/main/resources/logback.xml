@@ -33,7 +33,7 @@
     <logger name="org.mybatis" level="ERROR"/>
     <logger name="org.apache" level="info"/>
     <!-- 日志输出级别 -->
-    <root level="info">
+    <root level="debug">
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="FILE"/>
     </root>

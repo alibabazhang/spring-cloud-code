@@ -20,8 +20,6 @@ spring:
    password: 123456
    driver-class-name: com.mysql.jdbc.Driver
    type: com.alibaba.druid.pool.DruidDataSource
-   application:
-     name: cloud-provider
 
 mybatis:
    mapper-locations: classpath:mapper/*Mapper.xml #这里是mapper的配置文件

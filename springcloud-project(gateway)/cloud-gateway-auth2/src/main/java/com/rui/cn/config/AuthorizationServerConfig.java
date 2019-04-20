@@ -1,6 +1,7 @@
 package com.rui.cn.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.cloud.bootstrap.encrypt.KeyProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -30,17 +31,15 @@ import java.security.KeyPair;
 class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
     @Autowired
     private DataSource dataSource;
-    //jwt令牌转换器
     @Autowired
     private JwtAccessTokenConverter jwtAccessTokenConverter;
+    @Qualifier("userDetailsServiceImpl")
     @Autowired
     UserDetailsService userDetailsService;
     @Autowired
     AuthenticationManager authenticationManager;
     @Autowired
     TokenStore tokenStore;
-    @Autowired
-    private CustomUserAuthenticationConverter customUserAuthenticationConverter;
 
     //读取密钥的配置
     @Bean("keyProp")

@@ -31,9 +31,10 @@
     <logger name="org.springframework" level="WARN"/>
     <logger name="org.hibernate" level="ERROR"/>
     <logger name="org.mybatis" level="ERROR"/>
-    <logger name="org.apache" level="info"/>
+    <logger name="org.apache" level="ERROR"/>
+    <logger name=" com.netflix" level="ERROR"/>
     <!-- 日志输出级别 -->
-    <root level="debug">
+    <root level="info">
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="FILE"/>
     </root>

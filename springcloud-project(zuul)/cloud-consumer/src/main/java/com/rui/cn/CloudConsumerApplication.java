@@ -19,7 +19,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableEurekaClient
 @EnableHystrix
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.rui.cn"})
 public class CloudConsumerApplication {
     public static void main(String[] args) {
         SpringApplication.run(CloudConsumerApplication.class, args);

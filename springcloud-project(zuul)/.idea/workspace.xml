@@ -2,323 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0baa2db2-9c9c-45af-bbf9-3b383be67168" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__cn_springcloud_feign_venus_cloud_feign_core_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__cn_springcloud_feign_venus_cloud_feign_core_1_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__cn_springcloud_feign_venus_cloud_starter_feign_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__cn_springcloud_feign_venus_cloud_starter_feign_1_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_feign_feign_core_8_17_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_feign_feign_core_8_17_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_feign_feign_httpclient_8_17_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_feign_feign_httpclient_8_17_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_8_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_feign_okhttp_9_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_feign_okhttp_9_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_buffer_4_1_25_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_buffer_4_1_25_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_codec_4_1_25_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_codec_4_1_25_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_25_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_25_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_common_4_1_25_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_common_4_1_25_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_resolver_4_1_25_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_resolver_4_1_25_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_transport_4_1_25_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_transport_4_1_25_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_25_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_25_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_25_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_25_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_core_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_core_2_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_schema_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_schema_2_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_spi_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_spi_2_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_swagger_swagger_models_1_5_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__io_swagger_swagger_models_1_5_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/cloud-eureka/cloud-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/cloud-eureka/cloud-eureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/cloud-feign/cloud-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/cloud-feign/cloud-feign.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/cloud-feign/src/main/java/com/rui/cn/controller/HelloFeigenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/cloud-feign/src/main/java/com/rui/cn/controller/HelloFeigenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/cloud-provider/cloud-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/cloud-provider/cloud-provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/springcloud-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-project(eureka---feign)/springcloud-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/CloudConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/CloudConsumerApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud-eureka/target/" />
@@ -336,7 +22,6 @@
     <ignored path="$PROJECT_DIR$/cloud-zuul/target/" />
     <ignored path="$PROJECT_DIR$/cloud-auth-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -346,7 +31,7 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -413,7 +98,6 @@
         <option value="$PROJECT_DIR$/cloud-provider-A/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-provider-B/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/CloudConsumerApplication.java" />
         <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/config/FeigenServiceConfig.java" />
         <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/controller/HelloFeigenController.java" />
         <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/feignclients/ICollapsingService.java" />
@@ -425,17 +109,12 @@
         <option value="$PROJECT_DIR$/cloud-provider-B/src/main/java/com/rui/cn/service/impl/CollapsingService.java" />
         <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/CloudConsumerApplication.java" />
       </list>
     </option>
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -459,9 +138,6 @@
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -491,8 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -500,36 +174,12 @@
               <item name="springcloud-project(zuul)" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-project(zuul)" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springcloud-project(zuul)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-project(zuul)" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-project(zuul)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-project(zuul)" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-project(zuul)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-project(zuul)" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-project(zuul)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-project(zuul)" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -578,80 +228,72 @@
   <component name="RunManager" selected="Spring Boot.CloudConsumerApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CloudAuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-auth-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rui.cn.CloudAuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CloudConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rui.cn.CloudConsumerApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CloudEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rui.cn.CloudEurekaApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CloudProvider1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-A" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rui.cn.CloudProvider1Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CloudProvider2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-B" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rui.cn.CloudProvider2Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CloudZullApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rui.cn.CloudZullApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -709,6 +351,8 @@
       <workItem from="1543208375603" duration="4255000" />
       <workItem from="1550651198904" duration="1649000" />
       <workItem from="1552356150728" duration="2743000" />
+      <workItem from="1555743210330" duration="3162000" />
+      <workItem from="1555894744510" duration="604000" />
     </task>
     <task id="LOCAL-00001" summary="增加代码注释">
       <created>1552368159712</created>
@@ -721,105 +365,91 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138513000" />
+    <option name="totallyTimeSpent" value="142279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4930279" weight="0.32768363" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.4969605" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5063966" side_tool="true" weight="0.39620537" />
-      <window_info anchor="bottom" id="JRebel Console" order="9" sideWeight="0.50852877" side_tool="true" weight="0.3950893" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.22441365" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Executor" order="10" sideWeight="0.4904051" weight="0.39555556" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49253732" weight="0.3549107" />
-      <window_info anchor="right" id="Mybatis datasource" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" order="14" sideWeight="0.4969605" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="15" weight="0.3299435" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4869565" visible="true" weight="0.17813334" />
-      <window_info anchor="bottom" id="Problems" order="16" weight="0.3299435" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info id="JRebel" order="5" sideWeight="0.5223214" side_tool="true" weight="0.1988273" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32941177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4869565" visible="true" weight="0.1824" />
       <window_info id="Structure" order="1" sideWeight="0.51304346" side_tool="true" weight="0.20309168" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4914712" weight="0.35825893" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Key Promoter X" order="3" />
-      <window_info anchor="right" id="PlantUML" order="3" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.328125" />
+      <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="JRebel" order="5" sideWeight="0.5223214" side_tool="true" weight="0.1988273" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49253732" weight="0.3549107" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4914712" weight="0.35825893" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4930279" weight="0.32768363" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5063966" side_tool="true" weight="0.39620537" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Console" order="10" sideWeight="0.50852877" side_tool="true" weight="0.3950893" />
+      <window_info anchor="bottom" id="JRebel Executor" order="11" sideWeight="0.4904051" weight="0.39555556" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.328125" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.4969605" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Spring" order="15" sideWeight="0.4969605" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.3299435" />
+      <window_info anchor="bottom" id="Problems" order="17" weight="0.3299435" />
+      <window_info anchor="bottom" id="REST Client" order="18" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Key Promoter X" order="5" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.22441365" />
+      <window_info anchor="right" id="Database" order="10" weight="0.32941177" />
+      <window_info anchor="right" id="Palette&#9;" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969605" weight="0.5" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="JRebel" order="5" sideWeight="0.5147059" side_tool="true" weight="0.195629" />
-      <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.4969605" weight="0.32843137" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.3299435" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50697213" side_tool="true" weight="0.32768363" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.329653" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4930279" weight="0.32768363" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4852941" visible="true" weight="0.32093427" />
-      <window_info anchor="bottom" id="Problems" order="15" weight="0.3299435" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="JRebel" order="5" sideWeight="0.5147059" side_tool="true" weight="0.195629" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969605" weight="0.5" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978678" weight="0.39777777" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4930279" weight="0.32768363" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50697213" side_tool="true" weight="0.32768363" />
+      <window_info anchor="bottom" id="JRebel Console" order="8" sideWeight="0.50959486" side_tool="true" weight="0.39555556" />
+      <window_info anchor="bottom" id="JRebel Executor" order="9" sideWeight="0.4904051" weight="0.39555556" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329653" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.4969605" weight="0.32843137" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.4969605" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.3299435" />
+      <window_info anchor="bottom" id="Problems" order="15" weight="0.3299435" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.19402985" />
-      <window_info anchor="bottom" id="JRebel Executor" order="9" sideWeight="0.4904051" weight="0.39555556" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="JRebel Console" order="8" sideWeight="0.50959486" side_tool="true" weight="0.39555556" />
       <window_info anchor="right" id="Database" order="5" weight="0.32941177" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978678" weight="0.39777777" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加代码注释" />
     <option name="LAST_COMMIT_MESSAGE" value="增加代码注释" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="110" column="10" lean-forward="true" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12-sources.jar!/com/netflix/hystrix/HystrixCollapser.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-feign-hystrix/src/main/java/com/rui/cn/controller/HelloFeigenController.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-feign-hystrix/src/main/java/com/rui/cn/hystrixconfig/FeignErrorDecoder.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12-sources.jar!/com/netflix/hystrix/strategy/concurrency/HystrixConcurrencyStrategy.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-provider/src/main/java/com/rui/cn/CloudProviderApplication.java" />
     <entry file="file://$PROJECT_DIR$/cloud-provider/src/main/java/com/rui/cn/service/impl/UserServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/cloud-provider/src/main/java/com/rui/cn/service/impl/CollapsingService.java" />
     <entry file="file://$PROJECT_DIR$/cloud-provider/src/main/java/com/rui/cn/controller/UserController.java" />
@@ -919,13 +549,6 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.3.RELEASE/spring-boot-2.0.3.RELEASE-sources.jar!/org/springframework/boot/context/config/ConfigFileApplicationListener.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/CloudConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/feignclients/HelloFenginService.java" />
     <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/config/FeigenServiceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1023,6 +646,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="117" column="41" lean-forward="true" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-auth-server/src/main/java/com/rui/cn/config/OAuthConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-zuul/src/main/java/com/rui/cn/config/ApplicationExceptionAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-auth-server/src/main/java/com/rui/cn/CloudAuthServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-zuul/src/main/java/com/rui/cn/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-zuul/src/main/java/com/rui/cn/filter/SecondPreFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-zuul/src/main/java/com/rui/cn/CloudZullApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1030,10 +695,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-zuul/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/CloudConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="117" column="41" lean-forward="true" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-A/src/main/java/com/rui/cn/CloudProvider1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>

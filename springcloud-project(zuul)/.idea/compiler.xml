@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-feign" />
-        <module name="cloud-zuul" />
-        <module name="cloud-provider-A" />
         <module name="cloud-auth-server" />
         <module name="cloud-consumer" />
         <module name="cloud-eureka" />
+        <module name="cloud-feign" />
+        <module name="cloud-provider-A" />
         <module name="cloud-provider-B" />
+        <module name="cloud-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

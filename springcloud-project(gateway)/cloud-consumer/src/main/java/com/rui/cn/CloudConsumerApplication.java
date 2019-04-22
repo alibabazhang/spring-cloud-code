@@ -21,7 +21,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableHystrix
 @EnableWebMvc
 @MapperScan(basePackages = {"com.rui.cn.mapper"})
-@EnableDistributedTransaction
+//@EnableDistributedTransaction
 public class CloudConsumerApplication {
     public static void main(String[] args) {
         SpringApplication.run(CloudConsumerApplication.class, args);

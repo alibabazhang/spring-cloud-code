@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0baa2db2-9c9c-45af-bbf9-3b383be67168" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/CloudConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/CloudConsumerApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud-eureka/target/" />
@@ -31,7 +29,18 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1890">
+              <caret line="93" column="53" lean-forward="true" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,7 +103,6 @@
         <option value="$PROJECT_DIR$/cloud-provider-B/src/main/java/com/rui/cn/CloudProvider1Application.java" />
         <option value="$PROJECT_DIR$/cloud-zull/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-zuul/src/main/java/com/rui/cn/CloudZullApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-provider-A/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-provider-B/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-consumer/pom.xml" />
@@ -110,6 +118,7 @@
         <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/CloudConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -167,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,7 +188,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -353,6 +362,7 @@
       <workItem from="1552356150728" duration="2743000" />
       <workItem from="1555743210330" duration="3162000" />
       <workItem from="1555894744510" duration="604000" />
+      <workItem from="1558255739693" duration="1026000" />
     </task>
     <task id="LOCAL-00001" summary="增加代码注释">
       <created>1552368159712</created>
@@ -365,12 +375,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142279000" />
+    <option name="totallyTimeSpent" value="143305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4869565" visible="true" weight="0.1824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4869565" visible="true" weight="0.18443497" />
       <window_info id="Structure" order="1" sideWeight="0.51304346" side_tool="true" weight="0.20309168" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -450,8 +461,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="增加代码注释" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-provider/src/main/java/com/rui/cn/service/impl/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-provider/src/main/java/com/rui/cn/service/impl/CollapsingService.java" />
     <entry file="file://$PROJECT_DIR$/cloud-provider/src/main/java/com/rui/cn/controller/UserController.java" />
     <entry file="file://$PROJECT_DIR$/cloud-provider-B/cloud-provider-B.iml" />
     <entry file="file://$PROJECT_DIR$/cloud-provider-A/cloud-provider-A.iml" />
@@ -460,13 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -512,13 +514,6 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class" />
-    <entry file="file://$PROJECT_DIR$/cloud-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/config/FeignOkhttpConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -573,25 +568,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/feignclients/UserFeignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="14" column="99" lean-forward="true" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java" />
     <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/feignclients/ICollapsingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -604,13 +585,6 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE.jar!/META-INF/spring-configuration-metadata.json" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.2.RELEASE/spring-cloud-netflix-ribbon-2.0.2.RELEASE.jar!/META-INF/spring-configuration-metadata.json" />
-    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1357">
-          <caret line="59" column="27" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-A/src/main/java/com/rui/cn/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -695,19 +669,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/CloudConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-A/src/main/java/com/rui/cn/CloudProvider1Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/CloudConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/MAVEN/repository/org/springframework/cloud/spring-cloud-openfeign-core/2.0.2.RELEASE/spring-cloud-openfeign-core-2.0.2.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/interceptor/FeignTokenInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/feignclients/ICollapsingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/rui/cn/feignclients/UserFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="93" column="53" lean-forward="true" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
